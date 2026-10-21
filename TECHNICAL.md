@@ -153,9 +153,13 @@ route = not_urgent
 
 The variables are markers only. No external service is called and the branch does not email, store or forward the submission.
 
-> **Screenshot placeholder:** Full Make scenario.
->
-> **Screenshot placeholder:** Urgent route filter showing the exact comparison.
+### Scenario overview
+
+![Full Make scenario showing webhook, JSON parser, router and route markers](docs/images/make-scenario.png)
+
+### Urgent route filter
+
+![Make filter showing q13_issueSeverity equals Urgent](docs/images/routing-filter.png)
 
 ## Testing
 
@@ -187,6 +191,8 @@ The final Make routing tests were:
 | `q13_issueSeverity = Urgent` | `urgent` | `urgent` |
 
 Both tests passed and the scenario validated without errors.
+
+![Successful Make execution showing the urgent branch running](docs/images/routing-test.png)
 
 ## Public demo and data handling
 
@@ -260,6 +266,6 @@ This project stops deliberately at a safe prototype. A production implementation
 
 These are deliberately described as **future production considerations**, not features implemented in this prototype.
 
-## Screenshot plan
+## Screenshot notes
 
-The repository will use screenshots to make both reading paths easier to follow. See [docs/images/README.md](docs/images/README.md) for the capture and redaction checklist.
+The screenshots in this repository use fictional data and were captured with unnecessary account and execution metadata excluded. The original capture/redaction checklist is retained in [docs/images/README.md](docs/images/README.md).
