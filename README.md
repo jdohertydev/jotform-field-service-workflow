@@ -19,7 +19,7 @@ The public form is a demonstration only. Please use fictional data.
 
 The live demo is **not connected to the Make automation** used during development and testing. That integration was disconnected after the routing tests were completed.
 
-> **Screenshot placeholder:** Form overview showing the title, demo notice and first fields.
+![Worktop Installation & Site Issue Report demo form](docs/images/form-overview.png)
 
 ## The problem being modelled
 
@@ -42,9 +42,13 @@ The form captures basic job and installer information, then changes according to
 - If **further action** is needed, an additional follow-up field appears.
 - If the issue is **Urgent**, the installer must explain why urgent attention is required.
 
-> **Screenshot placeholder:** No-issue path.
->
-> **Screenshot placeholder:** Issue-reported path showing the additional conditional fields.
+### Clean installation path
+
+![Jotform showing the short no-issue path](docs/images/conditional-no-issue.png)
+
+### Urgent issue path
+
+![Jotform showing conditional issue fields for an urgent report](docs/images/conditional-issue.png)
 
 ## From form to workflow
 
@@ -73,9 +77,13 @@ The final routing tests confirmed:
 | Blank severity / no issue | `not_urgent` | Passed |
 | Severity = `Urgent` | `urgent` | Passed |
 
-> **Screenshot placeholder:** Make scenario overview.
->
-> **Screenshot placeholder:** Successful routing test evidence.
+### Make scenario
+
+![Make scenario showing webhook, JSON parsing, router and two route markers](docs/images/make-scenario.png)
+
+### Successful urgent-route test
+
+![Make execution showing the urgent route running successfully](docs/images/routing-test.png)
 
 ## Data and privacy
 
