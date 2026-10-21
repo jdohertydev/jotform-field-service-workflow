@@ -1,0 +1,26 @@
+{
+  "q3_jobReference": "JOB-DEMO-001",
+  "q4_customerName": "Demo Customer",
+  "q5_installationAddress": {
+    "addr_line1": "12 Example Road",
+    "addr_line2": "",
+    "city": "Neath",
+    "state": "",
+    "postal": "SA11 2AB"
+  },
+  "q7_installerName": "Rhys Davies",
+  "q8_installationDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2026"
+  },
+  "q9_wasThe": "No",
+  "q10_wasAn": "Yes",
+  "q11_issueCategory": "Damage",
+  "q13_issueSeverity": "Urgent",
+  "q14_describeThe": "A damaged worktop section prevents safe completion of the installation.",
+  "q17_actionTaken": "Installation stopped and the damaged section was isolated.",
+  "q18_isFurther": "Yes",
+  "q19_furtherAction": "Replacement section required and return visit to be arranged.",
+  "q20_reasonFor": "The installation is incomplete and the worktop area cannot be used."
+}
